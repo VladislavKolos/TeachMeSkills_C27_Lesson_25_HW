@@ -9,7 +9,7 @@ Web-app contains:
 - **"BeijingTimeServlet"** - to display the current time in Beijing. Contains **"doGet"** method for processing GET requests;
 - **"MinskTimeServlet"** - to display the current time in Minsk. Contains **"doGet"** method for processing GET requests;
 - **"WashingtonTimeServlet"** - to display the current time in Washington. Contains **"doGet"** method for processing GET requests.
-- **"web.xml"** file which is configured, **"<servlet></servlet>"** and **"<servlet-mapping></servlet-mapping>"** are added to it;
+- **"web.xml"** file which is configured, **"servlet/servlet"** and **"servlet-mapping/servlet-mapping"** are added to it;
 - **"index.jsp"** file which was created to display the welcome-page that is displayed when entering the main page of the web-application.
 **"WebServlet"** annotations have also been added to servlet classes.
 
