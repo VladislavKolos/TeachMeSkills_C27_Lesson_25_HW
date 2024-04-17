@@ -11,7 +11,7 @@ import java.time.ZoneId;
 import java.time.ZonedDateTime;
 
 /**
- * Method for processing GET requests. Displays the current time in Washington.
+ * Servlet class to display the current time in Washington.
  */
 @WebServlet(value = "/washington", name = "WashingtonTimeServlet")
 public class WashingtonTimeServlet extends HttpServlet {
