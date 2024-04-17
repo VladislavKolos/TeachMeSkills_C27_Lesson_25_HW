@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee
+                             http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
+         version="4.0">
+
+    <display-name>Archetype Created Web Application</display-name>
+
+    <servlet>
+        <servlet-name>BeijingTimeServlet</servlet-name>
+        <servlet-class>org.example.task1.time_servlets.BeijingTimeServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>BeijingTimeServlet</servlet-name>
+        <url-pattern>/beijing</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>MinskTimeServlet</servlet-name>
+        <servlet-class>org.example.task1.time_servlets.MinskTimeServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>MinskTimeServlet</servlet-name>
+        <url-pattern>/minsk</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>WashingtonTimeServlet</servlet-name>
+        <servlet-class>org.example.task1.time_servlets.WashingtonTimeServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>WashingtonTimeServlet</servlet-name>
+        <url-pattern>/washington</url-pattern>
+    </servlet-mapping>
+
+</web-app>
+
