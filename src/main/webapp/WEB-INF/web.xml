@@ -34,5 +34,14 @@
         <url-pattern>/washington</url-pattern>
     </servlet-mapping>
 
+    <servlet>
+        <servlet-name>AgeVerificationServlet</servlet-name>
+        <servlet-class>org.example.task2.age_servlets.AgeVerificationServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AgeVerificationServlet</servlet-name>
+        <url-pattern>/ageVerify</url-pattern>
+    </servlet-mapping>
+
 </web-app>
 
