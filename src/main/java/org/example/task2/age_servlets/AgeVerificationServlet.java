@@ -40,6 +40,7 @@ public class AgeVerificationServlet extends HttpServlet {
 
             } else {
                 int finalAge = (int) Math.floor(age);
+
                 String status = AgeValidator.validateAge(finalAge);
 
                 resp.setContentType("text/html");
